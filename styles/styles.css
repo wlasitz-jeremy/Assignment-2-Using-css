@@ -9,28 +9,29 @@ The instructions describe the missing styling and layout that is needed; you wil
 /****************** page defaults ******************/
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .fixed-width {
-    width: 600px;
-    margin: 0 auto; /* centers content on the screen */
+  width: 600px;
+  margin: 0 auto; /* centers content on the screen */
 }
 
 .hidden {
-    display: none; /* hides elements that are needed for DOM */
+  display: none; /* hides elements that are needed for DOM */
 }
 
 .flex {
-    display: flex; 
+  display: flex;
 }
 
 /****************** typography ******************/
 
-h1, h2 {
-    font-family: 'Roboto Slab', serif;
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
 }
 
 /***  INSTRUCTIONS:
@@ -46,15 +47,29 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
-
-
-
-
-
-
-
-
-
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+footer {
+  font-size: 12px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+main p {
+  padding: 15px 0px 15px 0px;
+}
 /****************** site-wide styling ******************/
 
 /***  INSTRUCTIONS:
@@ -71,14 +86,37 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
-
-
-
-
-
-
-
-
+header,
+footer {
+  background-color: #c74365;
+}
+main {
+  padding: 30px;
+}
+.fixed-width img {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+header a {
+  size: 18px;
+  padding: 15px;
+}
+header {
+  line-height: 50px;
+}
+header div nav {
+  padding-left: 166px;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+footer p {
+  padding: 15px;
+}
 /****************** home page styling ******************/
 
 /***  INSTRUCTIONS:
@@ -88,12 +126,14 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
-
-
-
-
-
-
+article {
+  background-color: lightgray;
+  margin: 15px;
+  padding: 15px;
+}
+.italics {
+  font-style: italic;
+}
 
 /****************** profile page styling ******************/
 
@@ -108,11 +148,6 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
-
 
 /****************** form styling ******************/
 
@@ -129,7 +164,3 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
