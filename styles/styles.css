@@ -93,7 +93,7 @@ footer {
 main {
   padding: 30px;
 }
-.fixed-width img {
+header .fixed-width img {
   height: 30px;
   width: 30px;
   padding: 10px;
@@ -149,6 +149,31 @@ article {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+.wide-column {
+  width: 420px;
+}
+.light-background .narrow-column {
+  width: 180px;
+}
+.wide-column .flex div img {
+  width: 120px;
+}
+.labels {
+  font-weight: bold;
+  width: 70px;
+  text-align: right;
+  padding-right: 15px;
+}
+.light-background {
+  background-color: lightgray;
+  height: 140px;
+  margin-top: 30px;
+}
+.light-background h2 {
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
 /****************** form styling ******************/
 
 /***  INSTRUCTIONS:
@@ -164,3 +189,28 @@ article {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+form {
+  margin: 45px 0px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+input {
+  width: 100px;
+  margin: 7.5px;
+}
+button {
+  height: 21px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 500px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background-color: grey;
+}
