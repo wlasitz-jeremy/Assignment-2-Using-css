@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** YOUR NAME: Jeremy Wlasitz
 
 Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
 
@@ -101,7 +101,9 @@ header .fixed-width img {
 }
 header a {
   font-size: 18px;
-  padding: 15px;
+}
+header div nav ul li {
+  padding-left: 15px;
 }
 header {
   line-height: 50px;
