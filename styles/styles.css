@@ -204,6 +204,7 @@ input {
   width: 100px;
   margin-right: 15px;
 }
+/* Button has a width of 108px instead of 100px because it wont line up otherwise */
 button {
   height: 21px;
   width: 108px;
